@@ -1,6 +1,7 @@
 let person = "Alice";
 let quantity = 5;
 let price = 20;
-let d = person + " bought " + quantity + " items for $" + price + ".";
+let time = new Date().toLocaleString();
+let checkout = person + " bought " + quantity + " items for $" + price + "at" + time +".";
 
-console.log(d);
+console.log(checkout);
